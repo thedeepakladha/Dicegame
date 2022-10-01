@@ -21,9 +21,10 @@ if (randomnumber1 === randomnumber2) {
 else if (randomnumber1 > randomnumber2) {
 
   document.querySelector("h1").innerHTML = player1 + "  WINS!✌️"
-  document.querySelector("h2").innerHTML = "OOPS! "+player2+" Better Luck NE"
+  document.querySelector("h2").innerHTML = "OOPS! "+player2+" Better Luck NExt time !!"
 
 }
 else if (randomnumber2 > randomnumber1) {
   document.querySelector("h1").innerHTML = player2 + "  WINS!✌️"
+  document.querySelector("h2").innerHTML = "OOPS! "+player1+" Better Luck NExt time !!"
 }
